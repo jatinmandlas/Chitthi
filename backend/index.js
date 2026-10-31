@@ -12,7 +12,7 @@ import messageRouter from "./routes/message.routes.js"
 const port=process.env.PORT ||5000
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://chitthi-3iaf.onrender.com",
     credentials:true
 }))
 app.use(express.json())
