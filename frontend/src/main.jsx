@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
-export const serverUrl="http://localhost:8000"
+export const serverUrl="https://chitthi-backend-h5ju.onrender.com"
 import {Provider} from "react-redux"
 import { store } from './redux/store.js'
 
